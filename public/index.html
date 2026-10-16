@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SIMPUL.  Busana Berkarakter, Dijahit dari Detail</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,600;1,9..144,500&family=Work+Sans:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ============ NAVBAR ============ -->
+<header class="navbar" id="navbar">
+  <div class="nav-inner">
+    <a href="#beranda" class="logo">SIMPUL<span class="dot">.</span></a>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="#beranda" class="nav-link active">Beranda</a>
+      <a href="#koleksi" class="nav-link">Koleksi</a>
+      <a href="#kategori" class="nav-link">Kategori</a>
+      <a href="#tentang" class="nav-link">Tentang</a>
+      <a href="#galeri" class="nav-link">Galeri</a>
+      <a href="#testimoni" class="nav-link">Testimoni</a>
+      <a href="#faq" class="nav-link">FAQ</a>
+      <a href="#kontak" class="nav-link">Kontak</a>
+    </nav>
+
+    <div class="nav-actions">
+      <a href="#koleksi" class="btn btn-primary btn-sm">Belanja Sekarang</a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Buka menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="beranda">
+  <div class="hero-inner">
+    <div class="hero-copy">
+      <span class="eyebrow-tag">Label Busana Independen  Est. 2019</span>
+      <h1 class="hero-title" id="heroTitle">Busana yang<br>punya <em>karakter</em>,<br>bukan sekadar baju.</h1>
+      <p class="hero-desc" id="heroDesc">SIMPUL. merancang pakaian sehari-hari dengan potongan presisi dan bahan pilihan dijahit dari detail, dikenakan dengan cerita.</p>
+      <div class="hero-actions">
+        <a href="#koleksi" class="btn btn-primary" id="heroCta">Belanja Sekarang</a>
+        <a href="#tentang" class="btn btn-ghost">Kenali SIMPUL. →</a>
+      </div>
+      <div class="hero-stats">
+        <div><strong>6 th</strong><span>berkarya</span></div>
+        <div><strong>12rb+</strong><span>pelanggan</span></div>
+        <div><strong>4.9/5</strong><span>rating toko</span></div>
+      </div>
+    </div>
+
+    <div class="hero-visual">
+      <div class="hero-frame">
+        <img src="https://picsum.photos/seed/simpul-hero/720/900" alt="Model mengenakan koleksi SIMPUL." class="hero-img" id="heroImg">
+        <div class="hang-tag hang-tag--float">
+          <div class="hang-tag-hole"></div>
+          <span class="tag-eyebrow">Koleksi Baru</span>
+          <span class="tag-title">Rilis Kemarau '26</span>
+        </div>
+      </div>
+      <div class="stitch-frame" aria-hidden="true"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ BANNER KOLEKSI TERBARU ============ -->
+<section class="collection-banner" id="koleksi">
+  <div class="cb-inner">
+    <span class="eyebrow-tag eyebrow-tag--light">Koleksi Terbaru</span>
+    <h2 class="cb-title">Rilis Kemarau '26  "Bayang &amp; Serat"</h2>
+    <p class="cb-desc">Sepuluh siluet baru terinspirasi dari tekstur kain tenun dan warna tanah kering. Tersedia terbatas, satu warna satu batch produksi.</p>
+    <a href="#produk-terbaru" class="btn btn-outline-light">Lihat Semua Rilis</a>
+  </div>
+</section>
+
+<!-- ============ PRODUK UNGGULAN ============ -->
+<section class="section" id="unggulan">
+  <div class="section-head">
+    <span class="eyebrow-tag">Best Seller</span>
+    <h2 class="section-title">Produk Unggulan</h2>
+    <p class="section-sub">Tiga potong paling dicari bulan ini, dipilih langsung dari data penjualan toko.</p>
+  </div>
+
+  <div class="featured-grid" id="featuredGrid">
+    <article class="featured-card">
+      <div class="featured-img"><img src="https://picsum.photos/seed/simpul-f1/500/620" alt="Kemeja Linen Guntara"></div>
+      <span class="badge badge-best">№ 1 Terlaris</span>
+      <h3>Kemeja Linen Guntara</h3>
+      <p class="price"><span class="price-now">Rp285.000</span></p>
+    </article>
+    <article class="featured-card">
+      <div class="featured-img"><img src="https://picsum.photos/seed/simpul-f2/500/620" alt="Celana Kulot Serat Bumi"></div>
+      <span class="badge badge-best">№ 2 Terlaris</span>
+      <h3>Kulot Serat Bumi</h3>
+      <p class="price"><span class="price-now">Rp245.000</span></p>
+    </article>
+    <article class="featured-card">
+      <div class="featured-img"><img src="https://picsum.photos/seed/simpul-f3/500/620" alt="Outer Rajut Sendu"></div>
+      <span class="badge badge-best"> 3 Terlaris</span>
+      <h3>Outer Rajut Sendu</h3>
+      <p class="price"><span class="price-now">Rp375.000</span></p>
+    </article>
+  </div>
+</section>
+
+<!-- ============ KATEGORI PRODUK ============ -->
+<section class="section section-alt" id="kategori">
+  <div class="section-head">
+    <span class="eyebrow-tag">Jelajahi</span>
+    <h2 class="section-title">Kategori Produk</h2>
+    <p class="section-sub">Cari berdasarkan jenis potongan yang kamu butuhkan.</p>
+  </div>
+
+  <div class="cat-grid">
+    <a href="#produk-terbaru" class="cat-tile" data-filter="atasan">
+      <img src="https://picsum.photos/seed/simpul-cat1/420/520" alt="Kategori Atasan">
+      <span class="cat-label">Atasan</span>
+    </a>
+    <a href="#produk-terbaru" class="cat-tile" data-filter="bawahan">
+      <img src="https://picsum.photos/seed/simpul-cat2/420/520" alt="Kategori Bawahan">
+      <span class="cat-label">Bawahan</span>
+    </a>
+    <a href="#produk-terbaru" class="cat-tile" data-filter="outerwear">
+      <img src="https://picsum.photos/seed/simpul-cat3/420/520" alt="Kategori Outerwear">
+      <span class="cat-label">Outerwear</span>
+    </a>
+    <a href="#produk-terbaru" class="cat-tile" data-filter="dress">
+      <img src="https://picsum.photos/seed/simpul-cat4/420/520" alt="Kategori Dress">
+      <span class="cat-label">Dress</span>
+    </a>
+    <a href="#produk-terbaru" class="cat-tile" data-filter="aksesori">
+      <img src="https://picsum.photos/seed/simpul-cat5/420/520" alt="Kategori Aksesori">
+      <span class="cat-label">Aksesori</span>
+    </a>
+  </div>
+</section>
+
+<!-- ============ PROMO / DISKON ============ -->
+<section class="promo" id="promo">
+  <div class="promo-inner">
+    <div class="promo-copy">
+      <span class="eyebrow-tag eyebrow-tag--light">Promo Terbatas</span>
+      <h2 class="promo-title">Flash Sale Akhir Musim<br>Diskon hingga 30%</h2>
+      <p class="promo-desc">Gunakan kode <strong>SIMPUL30</strong> untuk potongan langsung. Berlaku untuk kategori terpilih selama waktu berjalan.</p>
+      <div class="countdown" id="countdown">
+        <div class="cd-box"><span id="cd-h">00</span><small>Jam</small></div>
+        <div class="cd-box"><span id="cd-m">00</span><small>Menit</small></div>
+        <div class="cd-box"><span id="cd-s">00</span><small>Detik</small></div>
+      </div>
+      <a href="#produk-terbaru" class="btn btn-primary">Belanja Sebelum Habis</a>
+    </div>
+    <div class="promo-tag">
+      <div class="hang-tag hang-tag--big">
+        <div class="hang-tag-hole"></div>
+        <span class="tag-eyebrow">Kode Promo</span>
+        <span class="tag-title tag-mono">SIMPUL30</span>
+        <span class="tag-sub">Min. belanja Rp150rb</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ KOLEKSI PRIA / WANITA ============ -->
+<section class="section split-collection">
+  <a href="#produk-terbaru" class="split-half" data-filter="pria">
+    <img src="https://picsum.photos/seed/simpul-pria/700/860" alt="Koleksi Pria">
+    <div class="split-overlay">
+      <span class="eyebrow-tag eyebrow-tag--light">Untuknya</span>
+      <h3>Koleksi Pria</h3>
+      <span class="split-link">Lihat Koleksi →</span>
+    </div>
+  </a>
+  <a href="#produk-terbaru" class="split-half" data-filter="wanita">
+    <img src="https://picsum.photos/seed/simpul-wanita/700/860" alt="Koleksi Wanita">
+    <div class="split-overlay">
+      <span class="eyebrow-tag eyebrow-tag--light">Untuknya</span>
+      <h3>Koleksi Wanita</h3>
+      <span class="split-link">Lihat Koleksi →</span>
+    </div>
+  </a>
+</section>
+
+<!-- ============ PRODUK TERBARU ============ -->
+<section class="section" id="produk-terbaru">
+  <div class="section-head">
+    <span class="eyebrow-tag">Katalog</span>
+    <h2 class="section-title">Produk Terbaru</h2>
+    <p class="section-sub">Semua rilis terbaru SIMPUL., lengkap dengan pilihan warna &amp; ukuran.</p>
+  </div>
+
+  <div class="filter-bar" id="filterBar">
+    <button class="filter-btn active" data-filter="semua">Semua</button>
+    <button class="filter-btn" data-filter="pria">Pria</button>
+    <button class="filter-btn" data-filter="wanita">Wanita</button>
+    <button class="filter-btn" data-filter="atasan">Atasan</button>
+    <button class="filter-btn" data-filter="bawahan">Bawahan</button>
+    <button class="filter-btn" data-filter="outerwear">Outerwear</button>
+    <button class="filter-btn" data-filter="dress">Dress</button>
+    <button class="filter-btn" data-filter="aksesori">Aksesori</button>
+  </div>
+
+  <div class="product-grid" id="productGrid">
+    <!-- kartu produk dirender oleh script.js dari data PRODUCTS -->
+  </div>
+</section>
+
+<!-- ============ GALERI FASHION ============ -->
+<section class="section section-alt" id="galeri">
+  <div class="section-head">
+    <span class="eyebrow-tag">Lookbook</span>
+    <h2 class="section-title">Galeri Fashion</h2>
+    <p class="section-sub">Sekilas suasana pemotretan koleksi Rilis Kemarau '26.</p>
+  </div>
+  <div class="gallery-grid" id="galleryGrid">
+    <img src="https://picsum.photos/seed/simpul-g1/500/650" alt="Galeri 1" class="g-item g-tall">
+    <img src="https://picsum.photos/seed/simpul-g2/500/400" alt="Galeri 2" class="g-item">
+    <img src="https://picsum.photos/seed/simpul-g3/500/400" alt="Galeri 3" class="g-item">
+    <img src="https://picsum.photos/seed/simpul-g4/500/650" alt="Galeri 4" class="g-item g-tall">
+    <img src="https://picsum.photos/seed/simpul-g5/500/400" alt="Galeri 5" class="g-item">
+    <img src="https://picsum.photos/seed/simpul-g6/500/650" alt="Galeri 6" class="g-item g-tall">
+  </div>
+</section>
+
+<!-- ============ TENTANG BRAND ============ -->
+<section class="about" id="tentang">
+  <div class="about-inner">
+    <div class="about-visual">
+      <img src="https://picsum.photos/seed/simpul-about/600/720" alt="Proses jahit SIMPUL." id="aboutImg">
+      <div class="stitch-frame stitch-frame--about" aria-hidden="true"></div>
+    </div>
+    <div class="about-copy">
+      <span class="eyebrow-tag">Tentang Kami</span>
+      <h2 class="section-title" id="aboutTitle">Dari Meja Jahit ke Lemari Kamu</h2>
+      <div id="aboutText">
+      <p>SIMPUL. berawal dari studio jahit kecil di rumah pada 2019. Nama "Simpul" kami pilih karena setiap pakaian pada dasarnya adalah kumpulan simpul benang dan kami percaya setiap simpul itu bisa membawa cerita penciptanya.</p>
+      <p>Kini kami merancang, memotong, dan menjahit sendiri setiap koleksi di workshop kami, dengan bahan yang kami seleksi langsung dari pengrajin tekstil lokal.</p>
+      </div>
+      <div class="about-keunggulan" id="keunggulan">
+        <div class="kg-item">
+          <div class="kg-icon">✦</div>
+          <h4>Bahan Premium</h4>
+          <p>Katun &amp; linen pilihan, adem dan tahan lama.</p>
+        </div>
+        <div class="kg-item">
+          <div class="kg-icon">✦</div>
+          <h4>Desain Orisinal</h4>
+          <p>Pola dirancang sendiri, tidak dijual massal.</p>
+        </div>
+        <div class="kg-item">
+          <div class="kg-icon">✦</div>
+          <h4>Kirim Cepat</h4>
+          <p>Diproses &lt; 1x24 jam ke seluruh Indonesia.</p>
+        </div>
+        <div class="kg-item">
+          <div class="kg-icon">✦</div>
+          <h4>Retur 7 Hari</h4>
+          <p>Tukar ukuran gratis dalam 7 hari.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TESTIMONIAL ============ -->
+<section class="section" id="testimoni">
+  <div class="section-head">
+    <span class="eyebrow-tag">Kata Mereka</span>
+    <h2 class="section-title">Testimonial Pelanggan</h2>
+  </div>
+
+  <div class="testi-grid" id="testiGrid">
+    <article class="testi-card">
+      <div class="stars">★★★★★</div>
+      <p>"Bahannya beneran adem, jahitannya rapi banget. Sudah tiga kali order dan nggak pernah kecewa."</p>
+      <div class="testi-who"><strong>Ratri A.</strong><span>Yogyakarta</span></div>
+    </article>
+    <article class="testi-card">
+      <div class="stars">★★★★★</div>
+      <p>"Ukurannya presisi sesuai chart, jadi nggak takut salah pilih size lagi kalau beli di sini."</p>
+      <div class="testi-who"><strong>Bagas P.</strong><span>Bandung</span></div>
+    </article>
+    <article class="testi-card">
+      <div class="stars">★★★★☆</div>
+      <p>"Desainnya beda dari kebanyakan toko lain, terasa lebih dewasa. Pengiriman juga cepat."</p>
+      <div class="testi-who"><strong>Nadya F.</strong><span>Surabaya</span></div>
+    </article>
+  </div>
+</section>
+
+<!-- ============ FAQ ============ -->
+<section class="section section-alt" id="faq">
+  <div class="section-head">
+    <span class="eyebrow-tag">Pertanyaan Umum</span>
+    <h2 class="section-title">FAQ</h2>
+  </div>
+
+  <div class="faq-list" id="faqList">
+    <div class="faq-item">
+      <button class="faq-q">Bagaimana cara memilih ukuran yang tepat? <span class="faq-toggle">+</span></button>
+      <div class="faq-a"><p>Setiap produk memiliki tabel ukuran pada deskripsi. Bila ragu antara dua ukuran, kami sarankan memilih yang lebih besar untuk fit yang lebih nyaman.</p></div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-q">Berapa lama estimasi pengiriman? <span class="faq-toggle">+</span></button>
+      <div class="faq-a"><p>Pesanan diproses maksimal 1x24 jam kerja, dan dikirim ke seluruh Indonesia dengan estimasi 25 hari tergantung lokasi.</p></div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-q">Apakah bisa retur atau tukar ukuran? <span class="faq-toggle">+</span></button>
+      <div class="faq-a"><p>Bisa. Kami menerima penukaran ukuran dalam 7 hari setelah barang diterima, selama label dan kondisi produk masih baik.</p></div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-q">Metode pembayaran apa saja yang tersedia? <span class="faq-toggle">+</span></button>
+      <div class="faq-a"><p>Kami menerima transfer bank, e-wallet, dan QRIS. Konfirmasi pembayaran dilakukan langsung melalui WhatsApp.</p></div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-q">Apakah menerima pesanan custom atau reseller? <span class="faq-toggle">+</span></button>
+      <div class="faq-a"><p>Untuk pesanan dalam jumlah besar atau kerja sama reseller, silakan hubungi kami langsung melalui WhatsApp untuk penawaran khusus.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ KONTAK & FORM PESAN ============ -->
+<section class="section" id="kontak">
+  <div class="contact-grid">
+    <div class="contact-info">
+      <span class="eyebrow-tag">Hubungi Kami</span>
+      <h2 class="section-title">Ada pertanyaan? Kirim pesan.</h2>
+      <p class="section-sub">Tanya soal ukuran, stok, atau kerja sama. Kami balas secepatnya.</p>
+      <ul class="contact-list">
+        <li><strong>Alamat</strong><span id="contactAddress">Jl. Rajut Simpul No. 12, Bandung, Jawa Barat</span></li>
+        <li><strong>Telepon</strong><span id="contactPhone">+62 812-3456-7890</span></li>
+        <li><strong>Email</strong><span id="contactEmail">halo@simpul.co.id</span></li>
+        <li><strong>Sosial media</strong><span><a id="contactIg" href="#" target="_blank" rel="noopener">Instagram</a> &nbsp;·&nbsp; <a id="contactTt" href="#" target="_blank" rel="noopener">TikTok</a></span></li>
+      </ul>
+    </div>
+
+    <form class="contact-form" id="contactForm" novalidate>
+      <label>Nama
+        <input type="text" name="name" maxlength="80" autocomplete="name" required>
+      </label>
+      <label>Email
+        <input type="email" name="email" maxlength="120" autocomplete="email" required>
+      </label>
+      <label>Pesan
+        <textarea name="message" rows="5" maxlength="2000" required></textarea>
+      </label>
+      <!-- kolom jebakan untuk bot: disembunyikan dari manusia, jangan diisi -->
+      <input type="text" name="website" class="hp-field" tabindex="-1" autocomplete="off" aria-hidden="true">
+      <button type="submit" class="btn btn-primary">Kirim Pesan</button>
+      <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+    </form>
+  </div>
+</section>
+
+<!-- ============ CTA FOOTER BAND ============ -->
+<section class="cta-band" id="cta">
+  <div class="cta-inner">
+    <h2>Siap tampil dengan karakter sendiri?</h2>
+    <p>Jelajahi koleksi lengkap atau tanya-tanya dulu langsung ke admin kami.</p>
+    <div class="cta-actions">
+      <a href="#produk-terbaru" class="btn btn-primary">Belanja Sekarang</a>
+      <a href="https://wa.me/6281234567890?text=Halo%20SIMPUL.%2C%20saya%20mau%20tanya-tanya%20produk" target="_blank" rel="noopener" class="btn btn-whatsapp">
+        <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38a9.9 9.9 0 0 0 4.74 1.21h.01c5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2zm0 18.13h-.01a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.21 8.21 0 0 1-1.26-4.36c0-4.54 3.7-8.24 8.25-8.24 2.2 0 4.27.86 5.83 2.42a8.18 8.18 0 0 1 2.41 5.83c0 4.55-3.7 8.21-8.24 8.21zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.13-.17.25-.64.81-.78.97-.14.17-.29.19-.53.06-.25-.12-1.05-.39-2-1.23-.74-.66-1.24-1.47-1.39-1.72-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.43.12-.15.16-.25.25-.42.08-.17.04-.31-.02-.44-.06-.12-.56-1.35-.77-1.85-.2-.48-.41-.42-.56-.43-.14-.01-.31-.01-.48-.01-.17 0-.44.06-.67.31-.23.25-.87.85-.87 2.08 0 1.23.89 2.42 1.02 2.59.12.17 1.75 2.67 4.24 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.67-1.18.21-.58.21-1.07.15-1.18-.06-.1-.23-.16-.48-.28z"/></svg>
+        WhatsApp
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <a href="#beranda" class="logo logo--light">SIMPUL<span class="dot">.</span></a>
+      <p>Label busana independen dari Indonesia. Dijahit dari detail, dikenakan dengan karakter.</p>
+      <div class="footer-social">
+        <a href="#" id="footIg" target="_blank" rel="noopener" aria-label="Instagram">IG</a>
+        <a href="#" id="footTt" target="_blank" rel="noopener" aria-label="TikTok">TT</a>
+        <a href="https://wa.me/6281234567890" target="_blank" rel="noopener" aria-label="WhatsApp">WA</a>
+      </div>
+    </div>
+
+    <div class="footer-col">
+      <h5>Belanja</h5>
+      <a href="#kategori">Kategori</a>
+      <a href="#produk-terbaru">Produk Terbaru</a>
+      <a href="#promo">Promo</a>
+      <a href="#galeri">Galeri</a>
+    </div>
+
+    <div class="footer-col">
+      <h5>Bantuan</h5>
+      <a href="#faq">FAQ</a>
+      <a href="#faq">Panduan Ukuran</a>
+      <a href="#kontak">Pengiriman &amp; Retur</a>
+      <a href="#kontak">Hubungi Kami</a>
+    </div>
+
+    <div class="footer-col">
+      <h5>Kontak</h5>
+      <p id="footAddress">Jl. Rajut Simpul No. 12, Bandung, Jawa Barat</p>
+      <p id="footEmail">halo@simpul.co.id</p>
+      <p id="footPhone">+62 812-3456-7890</p>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2026 SIMPUL.  Seluruh hak cipta dilindungi.</p>
+    <p>Dibuat untuk Tugas PKL  Template Landing Page UMKM</p>
+  </div>
+</footer>
+
+<!-- ============ TOMBOL WHATSAPP MENGAMBANG ============ -->
+<a href="https://wa.me/6281234567890?text=Halo%20SIMPUL.%2C%20saya%20mau%20tanya%20produk"
+   target="_blank" rel="noopener" class="wa-float" aria-label="Chat WhatsApp">
+  <svg viewBox="0 0 24 24" width="26" height="26" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38a9.9 9.9 0 0 0 4.74 1.21h.01c5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2zm0 18.13h-.01a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.21 8.21 0 0 1-1.26-4.36c0-4.54 3.7-8.24 8.25-8.24 2.2 0 4.27.86 5.83 2.42a8.18 8.18 0 0 1 2.41 5.83c0 4.55-3.7 8.21-8.24 8.21zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.13-.17.25-.64.81-.78.97-.14.17-.29.19-.53.06-.25-.12-1.05-.39-2-1.23-.74-.66-1.24-1.47-1.39-1.72-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.43.12-.15.16-.25.25-.42.08-.17.04-.31-.02-.44-.06-.12-.56-1.35-.77-1.85-.2-.48-.41-.42-.56-.43-.14-.01-.31-.01-.48-.01-.17 0-.44.06-.67.31-.23.25-.87.85-.87 2.08 0 1.23.89 2.42 1.02 2.59.12.17 1.75 2.67 4.24 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.67-1.18.21-.58.21-1.07.15-1.18-.06-.1-.23-.16-.48-.28z"/></svg>
+</a>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>Admin SIMPUL.</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/admin-assets/admin.css">
+</head>
+<body>
+
+<div class="layout">
+
+  <!-- ===== SIDEBAR ===== -->
+  <aside class="sidebar" id="sidebar">
+    <div class="side-brand">SIMPUL<span>.</span> <small>Admin</small></div>
+
+    <nav id="sideNav">
+      <a href="#dashboard" data-view="dashboard">Dashboard</a>
+
+      <p class="side-label">Konten Landing Page</p>
+      <a href="#hero" data-view="hero">Hero</a>
+      <a href="#about" data-view="about">Tentang Brand</a>
+      <a href="#produk" data-view="produk">Produk</a>
+      <a href="#galeri" data-view="galeri">Galeri</a>
+      <a href="#testimoni" data-view="testimoni">Testimoni</a>
+      <a href="#kontak" data-view="kontak">Info Kontak</a>
+
+      <p class="side-label">Pesan</p>
+      <a href="#pesan" data-view="pesan">Pesan Masuk <span class="badge" id="unreadBadge" hidden>0</span></a>
+    </nav>
+
+    <div class="side-foot">
+      <span class="side-user" id="adminName"></span>
+      <a href="/" target="_blank" rel="noopener">Lihat website ↗</a>
+      <button class="btn btn-ghost btn-block" id="logoutBtn" type="button">Keluar</button>
+    </div>
+  </aside>
+
+  <!-- ===== KONTEN UTAMA ===== -->
+  <main class="main">
+    <header class="topbar">
+      <button class="menu-btn" id="menuBtn" type="button" aria-label="Buka menu">☰</button>
+      <h1 id="pageTitle">Dashboard</h1>
+    </header>
+    <div class="view" id="view"></div>
+  </main>
+</div>
+
+<!-- Jendela pop-up untuk form tambah/edit -->
+<dialog id="modal"><div id="modalBody"></div></dialog>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script src="/admin-assets/admin.js"></script>
+</body>
+</html>

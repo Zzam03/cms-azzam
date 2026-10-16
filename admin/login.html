@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>Masuk Admin — SIMPUL.</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/admin-assets/admin.css">
+</head>
+<body class="login-page">
+
+<main class="login-wrap">
+  <form id="loginForm" class="login-card" novalidate>
+    <div class="login-brand">SIMPUL<span>.</span></div>
+    <h1>Masuk Admin</h1>
+    <p class="login-sub">Kelola konten landing page toko.</p>
+
+    <div class="field">
+      <label for="username">Username atau Email</label>
+      <input id="username" name="username" type="text" autocomplete="username" required autofocus>
+    </div>
+
+    <div class="field">
+      <label for="password">Password</label>
+      <input id="password" name="password" type="password" autocomplete="current-password" required>
+    </div>
+
+    <p class="form-error" id="loginError" role="alert"></p>
+
+    <button class="btn btn-primary btn-block" type="submit">Masuk</button>
+    <a class="login-back" href="/">← Kembali ke website</a>
+  </form>
+</main>
+
+<script src="/admin-assets/login.js"></script>
+</body>
+</html>
